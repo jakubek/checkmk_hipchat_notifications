@@ -56,7 +56,6 @@ def main():
     else:
         # $HOSTNAME$|$LONGDATETIME$|$NOTIFICATIONTYPE$|$HOSTADDRESS$|$HOSTSTATE$|$HOSTOUTPUT$
         inputs_list.append(os.environ['NOTIFY_HOSTNAME'])
-        inputs_list.append(os.environ['NOTIFY_HOSTALIAS'])
         inputs_list.append(os.environ['NOTIFY_LONGDATETIME'])
         inputs_list.append(os.environ['NOTIFY_NOTIFICATIONTYPE'])
         inputs_list.append(os.environ['NOTIFY_HOSTADDRESS'])
